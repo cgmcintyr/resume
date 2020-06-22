@@ -6,14 +6,14 @@ cgmcintyre.pdf:
 dependencies:
 	tlmgr install \
 	    enumitem \
-	    xifthen \
-	    ifmtarg \
+	    environ \
 	    fontawesome \
+	    ifmtarg \
 	    sourcesanspro \
 	    sourcesanspro \
 	    tcolorbox \
-	    environ \
-	    trimspaces
+	    trimspaces \
+	    xifthen
 
 ## Remove build artifacts
 .PHONY: clean
