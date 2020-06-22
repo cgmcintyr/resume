@@ -1,6 +1,10 @@
 cgmcintyre.pdf:
 	xelatex cgmcintyre.tex
 
+.PHONY: preview
+preview:
+	firefox cgmcintyre.pdf
+
 ## Install required texlive packages
 .PHONY: dependencies
 dependencies:
